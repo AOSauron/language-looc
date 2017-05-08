@@ -4,7 +4,8 @@
 
 ### Web site
 
-  - [https://atom.io/users/AOSauron/language-looc](https://atom.io/users/AOSauron)
+  - [https://atom.io/users/AOSauron/language-looc](https://atom.io/users/AOSauron/language-looc)
+  - [https://github.com/AOSauron/language-looc](https://github.com/AOSauron/language-looc)
 
 ### Authors:
 

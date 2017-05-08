@@ -1,7 +1,7 @@
 {
   "name": "language-looc",
-  "version": "0.1.0",
-  "description": "LOOC language support in Atom",
+  "version": "0.1.1",
+  "description": "LOOC language support in Atom. @TELECOMNancy/AOSauron",
   "repository": "https://github.com/AOSauron/language-looc",
   "license": "MIT",
   "engines": {
