@@ -12,16 +12,6 @@
     'begin': '/\\*'
     'end': '\\*/'
   }
-  {
-    'name': 'punctuation.block.looc'
-    'begin': '{'
-    'end': '}'
-  }
-  {
-    'name': 'punctuation.block.looc'
-    'begin': '('
-    'end': ')'
-  }
   #{
   #  'name': 'keyword.control.looc'
   #  'match': '\\b(return)\\b'
