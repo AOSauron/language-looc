@@ -1,0 +1,70 @@
+# Grammar for LOOC made by Guillaume Garcia @TELECOMNancy
+
+'name': 'LOOC'
+'scopeName': 'source.looc'
+'fileTypes': [
+  'looc'
+]
+
+'patterns': [
+  {
+    'name': 'comment.block.looc'
+    'begin': '/\\*'
+    'end': '\\*/'
+  }
+  {
+    'name': 'keyword.control.looc'
+    'match': '\\b(return)\\b'
+  }
+  {
+    'name': 'constant.character.escape.backslash.looc'
+    'match': '\\\\.'
+  }
+  {
+    'name': 'keyword.command.looc'
+    'match': '\\b(class|inherit|var|method)\\b'
+  }
+  {
+    'name': 'keyword.type.looc'
+    'match': '\\b(int|string|nil)\\b'
+  }
+  {
+    'name': 'keyword.loop.looc'
+    'match': '\\b(for|if|fi|do|then|else|in|end)\\b'
+  }
+    {
+      'name': 'keyword.object.looc'
+      'match': '\\b(this|new|super)\\b'
+    }
+  {
+    'name': 'keyword.operator.looc'
+    'match': '(<|>|=|\\?|\\*|\\+|\\.\\.|\\-|\\!=|\\==)'
+  }
+  {
+    'name': 'string.quoted.single.looc'
+    'begin': '\''
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.looc'
+    'end': '\''
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.looc'
+    'patterns': [
+      {
+        'match': '\\\\.'
+        'name': 'constant.character.escape.looc'
+      }
+    ]
+  }
+  {
+    'begin': '^\\s*([a-zA-Z]\\w*)'
+    'beginCaptures':
+      '1':
+        'name': 'storage.type.looc'
+    'end': '\:'
+    'endCaptures':
+      '0':
+        'name': 'keyword.operator.looc'
+  }
+]
