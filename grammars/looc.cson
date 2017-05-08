@@ -32,13 +32,17 @@
     'name': 'keyword.loop.looc'
     'match': '\\b(for|if|fi|do|then|else|in|end)\\b'
   }
-    {
-      'name': 'keyword.object.looc'
-      'match': '\\b(this|new|super)\\b'
-    }
+  {
+    'name': 'keyword.object.looc'
+    'match': '\\b(this|new|super)\\b'
+  }
+  {
+    'name': 'keyword.function.looc'
+    'match': '\\b(write|read)\\b'
+  }
   {
     'name': 'keyword.operator.looc'
-    'match': '(<|>|=|\\?|\\*|\\+|\\.\\.|\\-|\\!=|\\==)'
+    'match': '(<|>|=|\\?|\\*|\\+|\\.\\.|\\-|\\!=|\\==|:=)'
   }
   {
     'name': 'string.quoted.single.looc'
