@@ -2,6 +2,11 @@
 
 * **LOOC** package for Atom. Experimental object-oriented language from TELECOM Nancy.*
 
+### Web site
+
+  - [https://atom.io/users/AOSauron/language-looc](https://atom.io/users/AOSauron/language-looc)
+  - [https://github.com/AOSauron/language-looc](https://github.com/AOSauron/language-looc)
+
 ### Authors:
 
   - GARCIA Guillaume - *AOSauron* @AOH-DevTeam/aoh-team-one

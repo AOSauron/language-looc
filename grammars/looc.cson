@@ -1,5 +1,3 @@
-# Grammar for LOOC made by Guillaume Garcia @TELECOMNancy
-
 'name': 'LOOC'
 'scopeName': 'source.looc'
 'fileTypes': [
@@ -12,10 +10,6 @@
     'begin': '/\\*'
     'end': '\\*/'
   }
-  #{
-  #  'name': 'keyword.control.looc'
-  #  'match': '\\b(return)\\b'
-  #}
   {
     'name': 'constant.character.escape.backslash.looc'
     'match': '\\\\.'
